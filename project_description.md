@@ -5,4 +5,3 @@ I chose the Android studio as the intended platform for my final project due to 
 
 Intended Framework/Programming Language: Java
 I selected Jave as the intended programming language for my Android app development due to its official support by Google for Android development. It has a widely adopted programming language known for its scalability, performance, and extensive ecosystem of libraries and tools. Its object-oriented nature and familiarity among developers make it a suitable choice for building robust and feature-rich Android applications.
- 
