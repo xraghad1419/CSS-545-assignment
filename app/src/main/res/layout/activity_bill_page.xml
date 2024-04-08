@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="350dp"
+    android:layout_height="430dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:elevation="9dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+
+        <ImageView
+            android:id="@+id/imgThankYou"
+            android:layout_width="293dp"
+            android:layout_height="237dp"
+            android:layout_marginBottom="52dp"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/homebackground" />
+
+        <TextView
+            android:id="@+id/massage"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="Thank you for ordering coffee!"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="320dp"
+            android:text="Home" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

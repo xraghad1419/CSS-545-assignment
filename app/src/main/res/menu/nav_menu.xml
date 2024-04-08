@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="COLD COFFEE"
+        android:icon="@drawable/ic_baseline_severe_cold_24"/>
+    <item
+        android:id="@+id/hot"
+        android:title="HOT COFFEE"
+        android:icon="@drawable/ic_baseline_coffee_24"/>
+
+    <item
+        android:id="@+id/ice"
+        android:title="COLD COFFEE"
+        android:icon="@drawable/ic_baseline_severe_cold_24"/>
+
+    >
+</menu>
